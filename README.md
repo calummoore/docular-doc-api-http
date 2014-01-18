@@ -3,6 +3,8 @@ docular-doc-api-http
 
 A plugin for docular (grunt-docular.com) to allow documentation of HTTP API.
 
+###NOTE: This will not work until [pull-request #91](https://github.com/gitsome/docular/pull/91) on docular is merged.
+
 ###Grunt
 To add the plugin using Grunt:
 
