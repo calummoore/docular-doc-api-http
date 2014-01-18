@@ -1,0 +1,32 @@
+{
+  "name": "docular-doc-api-http",
+  "description": "A plugin for docular (grunt-docular.com) to allow documentation of HTTP API",
+  "version": "0.0.1",
+  "author": {
+    "name": "Calum Moore",
+    "url": "https://github.com/calummoore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calummoore/docular-doc-api-http"
+  },
+  "bugs": {
+    "url": "https://github.com/calummoore/docular-doc-api-http/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/calummoore/docular-doc-api-http/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "documentation",
+    "docular",
+    "docular-plugin"
+  ],
+  "readmeFilename": "README.md"
+}
