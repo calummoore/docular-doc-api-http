@@ -1,0 +1,63 @@
+.badge-method {
+  padding: 4px 6px;
+  font-size:13px;
+  text-transform: uppercase;
+  color:white;
+  border-radius: 6px;
+  font-weight:500;
+}
+
+.badge-method.green {
+  background-color: #4ca239;
+}
+
+.badge-method.blue {
+  background-color: #4070ec;
+}
+
+.badge-method.yellow {
+  background-color: #e5c500;
+}
+
+.badge-method.red {
+  background-color: #ed0039;
+}
+
+.badge-method.grey {
+  background-color: #ddd;
+}
+
+.badge-method.default {
+  background-color: #333;
+}
+
+.path-section {
+  padding:10px 0 30px;
+  margin-top:10px;
+  margin-bottom:0px;
+  border-bottom:1px solid #eee;
+}
+
+.path-section table tr th {
+  padding: 5px;
+}
+
+.path-section table tr td {
+  padding: 3px 5px;
+}
+
+pre.path {
+  background-color: #292b36;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  margin:8px 0;
+}
+
+pre.path code {
+  font-size: 13px;
+}
+
+.path-description {
+  color:#555;
+}
