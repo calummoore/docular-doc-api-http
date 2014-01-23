@@ -101,6 +101,27 @@ module.exports =  {
                 
                 dom.h('Paths', function(){
                     
+                    //Sort the paths - to make them appear
+                    // in a nicer order
+                    var method_order = {
+                        get:1,
+                        post:2,
+                        put:3,
+                        'delete':4
+                    }
+                    self.paths.sort(function(a, b){
+                        var a_split = a.id.split('@');
+                        var b_split = b.id.split('@');
+                        if(a_split[0] !== b_split[0]){
+                            return a_split[0] > b_split[0];
+                        }
+                        else if(a_split[1] && b_split[1]) {
+                            return method_order[a_split[1]] > 
+                                method_order[b_split[1]];
+                        }
+                        return a > b;
+                    });
+
                     //Create each path
                     for (var i = 0; i < self.paths.length; i++) {
                         
